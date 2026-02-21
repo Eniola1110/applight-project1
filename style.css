@@ -1,0 +1,174 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    left: 0;
+}
+body{
+    background:url(../HTML/Assets/bg.png) no-repeat;
+    background-size: cover;
+}
+/* navbar */
+.navbar{
+        background-color: rgb(192, 159, 223);
+
+}
+.navbar-nav{
+    text-transform: uppercase;
+}
+.navbar-brand{
+    font-family: 'miniver', sans-serif;
+} 
+
+.section-content{
+    padding: 10px;
+    margin: 5px;
+}
+
+/* hero */
+#hero img{
+    width: 250px;
+    height: 500px;
+    border: 10px solid white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#hero img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+#hero .phone{
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+#hero button{
+    background-color: black;
+    height: 80px;
+    width:180px;
+    font-size: 10px;
+}
+#hero button img{
+      height: 40px;
+      width: 50px;      
+}
+#hero button p{
+    color: white;
+}
+
+/* about */
+
+#about h2{
+    justify-self: center;
+}
+
+#about .btn{
+    border: 2px solid rgb(147, 147, 202);
+}
+
+#about img{
+    height: 50px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.watch{
+    margin: auto;
+    justify-content: center;
+}
+
+.watch img{
+    height: 30px;
+    width: 30px;
+
+}
+/* features */
+
+
+.features-icon{
+    width: 250px;
+    height: 500px;
+    border: 10px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.features-icon:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.feature-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* team */
+
+#team{
+    background-color: whitesmoke;
+}
+#team h2{
+    justify-self: center;
+}
+
+#team img{
+    width: 250px;
+    height: 250px;
+}
+.carousel-item .card{
+    max-width: 600px; 
+    background: rgba(255,255,255,0.1); 
+    backdrop-filter: blur(10px); 
+    border-radius: 20px;
+}
+.carousel-item img{
+    float: left;
+}
+/* contact */
+.form-control{
+    border-radius: 25px;
+}
+
+textarea.form-control{
+    border-radius: 20px;
+}
+
+.btn-submit{
+    background: linear-gradient(90deg, #a36bff);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    transition: 0.3s;
+}
+
+.btn-submit:hover{
+    opacity: 0.9;
+}
+
+.contact-info{
+    background: linear-gradient(90deg, #a36bff);
+    border-radius: 15px;
+}
+
+.container button{
+    height: 80px;
+    width:180px;
+}
+.container button img{
+      height: 40px;
+      width: 50px;      
+}
+@media only screen and (max-width:425px) {
+    .carousel-item img{
+    float: none;
+}
+#hero .phone{
+    display: none;
+   }
+}
+
